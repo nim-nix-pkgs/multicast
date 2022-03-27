@@ -11,6 +11,7 @@
   inputs.src-multicast-master.ref   = "refs/heads/master";
   inputs.src-multicast-master.owner = "enthus1ast";
   inputs.src-multicast-master.repo  = "nimMulticast";
+  inputs.src-multicast-master.dir   = "";
   inputs.src-multicast-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
